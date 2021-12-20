@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interactive Black Shapes</title>
+
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+
+        <div id="app">
+
+            <div id="dots_cont">
+
+                <div id="dot_01" class="linked_div">
+                    <a href="http://google.de" target="_blank">
+                        <img src="assets/images/dot.png">
+                    </a>
+                </div>
+
+                <div id="dot_02" class="linked_div">
+                    <a href="http://google.de" target="_blank">
+                        <img src="assets/images/dot.png">
+                    </a>
+                </div>
+
+                <div id="dot_03" class="linked_div">
+                    <a href="http://google.de" target="_blank">
+                        <img src="assets/images/dot.png">
+                    </a>
+                </div>
+
+                <div id="dot_04" class="linked_div">
+                    <a href="http://google.de" target="_blank">
+                        <img src="assets/images/dot.png">
+                    </a>
+                </div>
+
+            </div>
+
+            <canvas id="canvas"></canvas>
+
+            <div id="shape_01" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+            <div id="shape_02" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+            <div id="shape_03" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+            <div id="shape_04" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+            <div id="shape_05" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+            <div id="shape_06" class="linked_div"><a href="http://google.de" target="_blank">Text</a></div>
+
+            <button id="reload_button">Reload</button>
+            <button id="destroy_button">Destroy</button>
+
+        </div>
+
+        <script src="js/libs/decomp.js"></script>
+        <script src="js/libs/matter.js"></script>
+
+        <script type="module" src="js/App.js"></script>
+
+    </body>
+
+</html>
